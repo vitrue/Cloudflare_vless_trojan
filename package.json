@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-vless-trojan",
+  "version": "2.0.0",
+  "description": "Cloudflare Workers & Pages VLESS / Trojan Proxy Script with Dynamic Subscription Engine and Multi-ProxyIP Pool",
+  "main": "Vless_workers_pages/_worker.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:bun": "bun scripts/build.js"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "pages",
+    "vless",
+    "trojan",
+    "proxyip"
+  ],
+  "author": "bo du",
+  "license": "MIT",
+  "devDependencies": {
+    "javascript-obfuscator": "^5.10.1"
+  }
+}
